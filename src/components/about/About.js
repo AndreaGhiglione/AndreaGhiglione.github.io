@@ -14,29 +14,28 @@ const About = () => {
           <div className="about-text">
             <h2>Who am I?</h2>
             <p>
-              I'm Matt{' '}
+              I'm Andrea{' '}
               <span role="img" aria-label="lightning">
-                😄
+              🟩⬜️🟥
               </span>{' '}
             </p>
             <p>
               <span role="img" aria-label="lightning">
-                ⚡
+              📊 
               </span>{' '}
-              I'm a software engineer focusing on Front-End web and emerging
-              tech such as VR, AR and Blockchain.
+              I'm a data science and data engineer student focusing on Machine Learning,
+              Data Engineering and Analytics
             </p>
             <p>
               <span role="img" aria-label="lightning">
-                ⚡
+              💻
               </span>{' '}
-              You can find me working with UE5, JavaScript, React, Vue, Node,
-              Apollo and Gatsby.
+              You can find me working mainly with Python, SQL, TensorFlow, PyTorch, Spark and JavaScript
             </p>
             <div className="typewriter">
               <p className="typewriter-start">
                 <span role="img" aria-label="lightning">
-                  ⚡
+                🔍
                 </span>{' '}
                 I love
               </p>
@@ -44,23 +43,39 @@ const About = () => {
                 options={{
                   strings: [
                     'learning new technologies',
-                    'exercising',
                     'solving complex problems',
-                    'skiing',
-                    'fixing hard-to-fix bugs',
-                    'trying new things',
                     'collaborating with others',
                   ],
                   autoStart: true,
                   loop: true,
                 }}
               />
-              <p>.</p>
             </div>
             <p>
-              Since 2015 - I've spent my time seeking and learning new
-              technologies and forms of digital expression. This has led to me
-              working on some amazing world-class{' '}
+              In 2020 I graduated in Computer Engineering at{' '}
+              <a
+                className='textLink'
+                href="https://www.polito.it/en"
+                target='_blank'
+                spy={true}
+                smooth={true}
+                duration={500}
+                style={{ textDecoration: 'none' }}
+              >Politecnico di Torino</a>
+              {' '}(Turin, IT).
+              Then I started my M.Sc in Data Science and Engineering.
+              In 2021 I won a scholarship for a Double Degree program with the{' '} 
+              <a
+                className='textLink'
+                href="https://www.eurecom.fr/en"
+                target='_blank'
+                spy={true}
+                smooth={true}
+                duration={500}
+                style={{ textDecoration: 'none' }}
+              >Institut EURECOM</a>
+              {' '}(Sophia Antipolis, FR).
+              During my master I had the chance to work on several{' '}
               <Link
                 className="textLink"
                 to="projects"
@@ -70,17 +85,17 @@ const About = () => {
               >
                 projects
               </Link>
-              , worked at some{' '}
-              <Link
-                className="textLink"
-                to="experience"
+              ; if you want to see all of them checkout my{' '}
+              <a
+                className='textLink'
+                href="https://github.com/AndreaGhiglione"
+                target='_blank'
                 spy={true}
                 smooth={true}
                 duration={500}
-              >
-                amazing places
-              </Link>
-              , and worked with some great people.
+                style={{ textDecoration: 'none' }}
+              >GitHub</a>
+              .
             </p>
             <div className="location-wrapper">
               <svg
@@ -97,7 +112,7 @@ const About = () => {
                   d="M11.536 3.464a5 5 0 010 7.072L8 14.07l-3.536-3.535a5 5 0 117.072-7.072v.001zm1.06 8.132a6.5 6.5 0 10-9.192 0l3.535 3.536a1.5 1.5 0 002.122 0l3.535-3.536zM8 9a2 2 0 100-4 2 2 0 000 4z"
                 ></path>
               </svg>
-              <p>Sydney, Australia</p>
+              <p>Turin, IT - Sophia Antipolis, FR</p>
             </div>
           </div>
         </Fade>

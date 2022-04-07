@@ -2,49 +2,49 @@
   "experience": [
     {
       "id": 0,
-      "link": "https://www.8secondz.com/",
-      "company": "8secondz",
-      "title": "Creative Lead - Web & App Teams",
-      "dateFrom": "June 2020",
-      "dateTo": "July 2021",
+      "link": "https://github.com/AndreaGhiglione/data-science-lab/tree/main/Regression%20project",
+      "company": "Politecnico di Torino",
+      "title": "Wine's quality prediction",
+      "dateFrom": "September 2020",
+      "dateTo": "January 2021",
       "info": [
-        "Responsible for web team front-end development and design",
-        "Led in app UI/UX & company wide creative media content"
+        "Apply several encoding techniques and try different ML models in a case where only categorical features are provided",
+        "Try different data cleaning processes and use a grid-search approach to achieve the best result"
       ],
-      "stack": ["Vue.js", "Nuxt.js", "Node.js", "AWS"],
+      "stack": ["Python", "Scikit-learn", "Seaborn"],
       "logoheight": 80,
       "colourPrimary": "linear-gradient(to bottom, #f4592b, #f28d25)",
       "colourSecondary": "linear-gradient(to bottom, #f4592b, #f28d25)"
     },
     {
       "id": 1,
-      "link": "https://www.psykinetic.com",
-      "company": "Psykinetic",
-      "title": "Immersive Tech & Web Developer",
-      "dateFrom": "August 2020",
-      "dateTo": "Current",
+      "link": "https://github.com/AndreaGhiglione/incremental-learning-semantic-segmentation",
+      "company": "Politecnico di Torino",
+      "title": "Incremental Learning in Semantic Segmentation",
+      "dateFrom": "February 2021",
+      "dateTo": "July 2021",
       "info": [
-        "Developing VR application with UE4 and C++ for Oculus Quest",
-        "Web design & development of web platform using wix"
+        "Work in an incremental scenario dealing with neural networks' catastrophic forgetting problem",
+        "Extend the case to weak supervised scenario where only classes' seeds are provided"
       ],
-      "stack": ["C++", "UE4", "VR", "Web Design"],
+      "stack": ["Python", "PyTorch", "TensorBoard"],
       "logowidth": 80,
       "colourPrimary": "linear-gradient(to bottom, #465a90, #1e3470)",
       "colourSecondary": "linear-gradient(to bottom, #465a90, #1e3470)"
     },
     {
       "id": 2,
-      "link": "https://www.cactuscan.com",
-      "company": "CactusCan",
-      "title": "Creative Lead",
-      "dateFrom": "2016",
-      "dateTo": "Current",
+      "link": "https://github.com/AndreaGhiglione/malis/tree/master/Project",
+      "company": "Institut EURECOM",
+      "title": "Retinal vessels Segmentation",
+      "dateFrom": "September 2021",
+      "dateTo": "January 2022",
       "info": [
-        "Co-founding CactusCan in 2015 has led to many exciting projects with incredible customers.",
-        "Web design, marketing, media and customer engagement."
+        "Reduce the burden of data annotation with an active machine learning framework on a patch basis",
+        "Segment eyes' vessels in a weak supervised scenario achieving a satisfactory result"
       ],
-      "stack": ["React", "Marketing", "Design", "UI/UX"],
-      "logowidth": 80,
+      "stack": ["Python", "TensorFlow", "OpenCV"],
+      "logoheight": 77,
       "colourPrimary": "linear-gradient(to bottom, #39b175, #0be779)",
       "colourSecondary": "linear-gradient(to bottom, #39b175, #0be779)"
     }

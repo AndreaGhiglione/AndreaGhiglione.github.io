@@ -125,3 +125,8 @@ dist
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+manifest.json
+asset-manifest.json
+precache-manifest.e23512c0a92d5c5173ad69ff8e365a4d.js
+service-worker.js

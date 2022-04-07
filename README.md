@@ -1,19 +1,20 @@
-<div align="center">
-  <h1>🌵<br>React Portfolio</h1>
-  <h3>Portfolio One-Pager made with ReactJs</h3>
-  <h3><a href="https://matthewjigalin-react-portfolio.netlify.app/" target="_blank">Live Preview</a></h3>
-</div>
+[![Website status](https://img.shields.io/website-up-down-green-red/https/AndreaGhiglione.github.io.svg?label=Website%20status)](https://AndreaGhiglione.github.io)&nbsp;
+[![made-with-react](https://img.shields.io/badge/Made%20with-React-blue.svg)](http://commonmark.org)
 
-<div align="center"><img src="https://user-images.githubusercontent.com/29565530/144163917-196b3e87-90e2-4615-b1c7-6a905533f34b.gif" /></div>
-<div align="center">
-  <p>Home background effect made with React-Particles</p>
-</div>
+## 💬 Overview and setup:
 
+A one-page react portfolio, including my main projects and skills. 
 <br>
-
-## 💬 Overview:
-
-A simple one-page react portfolio with clearly defined and modular components which can be easily swapped in and out depending on your use-case. Currently integrated with Apollo & Github API to call repositories with a user provided auth token.
+If you want to see how it works, first you have to install NPM:
+```
+npm install
+```
+Then run in the project root folder:
+<br>
+```
+npm start
+```
+Your default browser will open up with <i>localhost:3000 port</i> and will show the website.
 
 ## 🛠️ Packages & APIs
 
@@ -24,16 +25,8 @@ A simple one-page react portfolio with clearly defined and modular components wh
 - [react-reveal](https://github.com/rnosov/react-reveal)
 - [react-is-visible](https://github.com/lessp/react-is-visible)
 
-## 🏗️ Recent changes:
+## Credits:
 
-- Deploy 'Projects' component to live build which utilized Apollo & Github's GraphQL API to get my projects displaying as elements.
-- Deploy 'Experience' section - need to update content to recent experience. (Up to date experience can be found on my <a href="https://www.linkedin.com/in/mjigalin/" target="_blank">Linkedin</a>.
-- Clickthroughs to currently live web projects I've worked on / developed
-
-## 🚧 Current Planned Developments:
-
-- Add gif previews in a carousel of my previous web projects
-- Additional styling overhaul using css variables instead of manual colours
-- Convert site to a gatsby static site for faster load times & security
+This website was created starting from [this](https://github.com/jigalin/portfolio-landing-page) project.
 
 
